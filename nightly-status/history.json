@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T14:02:56.570150+00:00",
+  "last_updated": "2026-11-22T23:14:44.425914+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-11-22",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/jackiectl2/tensordict/actions/runs/45030116852",
       "orchestrator_run_id": 45030116852,
       "workflows": {
