@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-11-26T01:34:25.167613+00:00",
+  "last_updated": "2026-11-26T17:10:22.802650+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 4,
-      "total_workflow_runs": 20,
-      "total_success": 20,
+      "runs_with_data": 5,
+      "total_workflow_runs": 25,
+      "total_success": 25,
       "total_failure": 0,
       "success_rate": 100.0
     },
     "last_30_days": {
       "days": 30,
-      "runs_with_data": 22,
-      "total_workflow_runs": 128,
-      "total_success": 128,
+      "runs_with_data": 23,
+      "total_workflow_runs": 133,
+      "total_success": 133,
       "total_failure": 0,
       "success_rate": 100.0
     }
@@ -21,16 +21,49 @@
   "history": [
     {
       "date": "2026-11-26",
-      "orchestrator_ran": false,
-      "orchestrator_status": "not_run",
-      "orchestrator_url": null,
-      "workflows": {},
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/jackiectl2/tensordict/actions/runs/45856874140",
+      "orchestrator_run_id": 45856874140,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/jackiectl2/tensordict/actions/runs/45856874140/job/140037498899",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/jackiectl2/tensordict/actions/runs/45856874140/job/140037497912",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/jackiectl2/tensordict/actions/runs/45856874140/job/140037498094",
+          "display_name": "RL GPU Tests"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/jackiectl2/tensordict/actions/runs/45856874140/job/140037498128",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/jackiectl2/tensordict/actions/runs/45856874140/job/140037498139",
+          "display_name": "Benchmarks"
+        }
+      },
       "summary": {
-        "total": 0,
-        "success": 0,
+        "total": 5,
+        "success": 5,
         "failure": 0,
         "skipped": 0,
-        "success_rate": null
+        "other": 0,
+        "success_rate": 100.0
       }
     },
     {
